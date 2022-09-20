@@ -7,5 +7,6 @@
 // 	3 -> Среда 
 // 5 -> Пятница
 
-Console.WriteLine("Введите числа А и В");
+Console.WriteLine("Введите число дня недели");
+int number = Convert.ToInt32(Console.ReadLine());
 
