@@ -3,10 +3,18 @@
 // a = 2, b = 10 -> нет 
 // a = 9, b = -3 -> да 
 // a = -3 b = 9 -> нет
-// 3. Напишите программу, которая будет выдавать название дня недели по заданному номеру.
-// 	3 -> Среда 
-// 5 -> Пятница
 
-Console.WriteLine("Введите число дня недели");
-int number = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Введите число 1:");
+int numberA = Convert.ToInt32(Console.ReadLine());
 
+Console.WriteLine("Введите число 2:");
+int numberB = Convert.ToInt32(Console.ReadLine());
+
+if(numberA == numberB * numberB) 
+{
+    Console.WriteLine("Да");
+}
+else
+{
+    Console.WriteLine("Нет");
+}
